@@ -1132,6 +1132,26 @@ img {
     background: var(--purple);
 }
 
+.products-mobile-row {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0 10px 5px;
+    scrollbar-width: none;
+    cursor: grab;
+}
+
+.products-mobile-row::-webkit-scrollbar {
+    display: none;
+}
+
+.products-mobile-row .product-card {
+    flex: 0 0 100%;
+    min-width: 100%;
+    height: 390px;
+}
+
 .sme-section {
     position: relative;
     overflow: hidden;
@@ -2460,3 +2480,4 @@ body {
     height: 1px;
     background: #e5e5e5;
 }
+
