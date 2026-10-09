@@ -1085,8 +1085,8 @@ img {
     text-decoration: none;
 }
 
-.product-card a:hover {
-    color: purple;
+.product-card:hover a {
+    color: var(--purple);
 }
 
 .products-mobile-slider {
@@ -2461,7 +2461,7 @@ body {
     height: auto;
 }
 
-.site-header .header-main-row > .col-lg-3 .navbar-brand img {
+.site-header .header-main-row>.col-lg-3 .navbar-brand img {
     position: relative;
     top: -30px;
 }
@@ -2481,3 +2481,80 @@ body {
     background: #e5e5e5;
 }
 
+@media (min-width: 576px) and (max-width: 991.98px) {
+
+    .alat-download {
+        min-height: 400px;
+    }
+
+    .alat-download .container {
+        height: 400px;
+        max-width: 100%;
+    }
+
+    .alat-switch-row {
+        top: 40px;
+        gap: 14px;
+        font-size: 13px;
+    }
+
+    .alat-download-text {
+        top: 80px;
+        font-size: 14px;
+    }
+
+    .alat-phone {
+        width: 280px;
+        height: 330px;
+        left: 50%;
+        bottom: 0;
+    }
+
+    .alat-store-buttons {
+        left: 8%;
+        bottom: 35px;
+        gap: 10px;
+    }
+
+    .app-store-img {
+        width: 100px;
+    }
+
+    .alat-right-content {
+        left: auto;
+        right: 4%;
+        top: 215px;
+        width: 170px;
+    }
+
+    .alat-line {
+        width: 150px;
+        margin-bottom: 14px;
+    }
+
+    .alat-right-content p {
+        font-size: 14px;
+        line-height: 1.4;
+        margin-bottom: 18px;
+    }
+
+    .alat-learn-btn {
+        padding: 10px 12px;
+        font-size: 12px;
+    }
+
+    .alat-arrow {
+        left: 5%;
+        width: 75px;
+    }
+
+    .alat-star {
+        left: 28%;
+        width: 55px;
+    }
+
+    .alat-plane {
+        right: 15%;
+        width: 75px;
+    }
+}
